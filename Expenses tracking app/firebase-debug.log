@@ -1,0 +1,60 @@
+[debug] [2024-03-07T20:35:04.529Z] ----------------------------------------------------------------------
+[debug] [2024-03-07T20:35:04.539Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Nithin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js hosting:disable
+[debug] [2024-03-07T20:35:04.539Z] CLI Version:   13.4.0
+[debug] [2024-03-07T20:35:04.540Z] Platform:      win32
+[debug] [2024-03-07T20:35:04.540Z] Node Version:  v20.11.1
+[debug] [2024-03-07T20:35:04.540Z] Time:          Fri Mar 08 2024 02:05:04 GMT+0530 (India Standard Time)
+[debug] [2024-03-07T20:35:04.540Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-03-07T20:35:04.655Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-03-07T20:35:04.656Z] > authorizing via signed-in user (devinithin195@gmail.com)
+[debug] [2024-03-07T20:35:04.656Z] [iam] checking project etracker-96a91 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-03-07T20:35:04.666Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/etracker-96a91:testIamPermissions [none]
+[debug] [2024-03-07T20:35:04.666Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/etracker-96a91:testIamPermissions x-goog-quota-user=projects/etracker-96a91
+[debug] [2024-03-07T20:35:04.667Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/etracker-96a91:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-03-07T20:35:06.087Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/etracker-96a91:testIamPermissions 200
+[debug] [2024-03-07T20:35:06.088Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/etracker-96a91:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-03-07T20:35:06.089Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/etracker-96a91 [none]
+[debug] [2024-03-07T20:35:06.690Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/etracker-96a91 200
+[debug] [2024-03-07T20:35:06.690Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/etracker-96a91 {"projectId":"etracker-96a91","projectNumber":"972239047465","displayName":"etracker","name":"projects/etracker-96a91","resources":{"hostingSite":"etracker-96a91"},"state":"ACTIVE","etag":"1_63f8c6fd-300d-4be2-bae2-865736965ebf"}
+[debug] [2024-03-07T20:35:11.323Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/sites/etracker-96a91/releases [none]
+[debug] [2024-03-07T20:35:11.323Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/sites/etracker-96a91/releases {"type":"SITE_DISABLE"}
+[debug] [2024-03-07T20:35:12.277Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/sites/etracker-96a91/releases 200
+[debug] [2024-03-07T20:35:12.277Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/sites/etracker-96a91/releases {"name":"sites/etracker-96a91/releases/1709843711594000","type":"SITE_DISABLE","releaseTime":"2024-03-07T20:35:11.594Z","releaseUser":{"email":"devinithin195@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocIhtEWwwI-gFDOB3WB7brkZhh3d7FDPOVzvDJo1-njNovM"}}
+[info] +  Hosting has been disabled for etracker-96a91. Deploy a new version to re-enable. 
+[debug] [2024-03-07T20:35:22.300Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\Nithin\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:258:49)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-03-07T20:36:06.405Z] ----------------------------------------------------------------------
+[debug] [2024-03-07T20:36:06.409Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Nithin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js hosting:disable
+[debug] [2024-03-07T20:36:06.410Z] CLI Version:   13.4.0
+[debug] [2024-03-07T20:36:06.410Z] Platform:      win32
+[debug] [2024-03-07T20:36:06.410Z] Node Version:  v20.11.1
+[debug] [2024-03-07T20:36:06.411Z] Time:          Fri Mar 08 2024 02:06:06 GMT+0530 (India Standard Time)
+[debug] [2024-03-07T20:36:06.411Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-03-07T20:36:06.511Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-03-07T20:36:06.512Z] > authorizing via signed-in user (devinithin195@gmail.com)
+[debug] [2024-03-07T20:36:06.512Z] [iam] checking project etracker-96a91 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-03-07T20:36:06.515Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/etracker-96a91:testIamPermissions [none]
+[debug] [2024-03-07T20:36:06.515Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/etracker-96a91:testIamPermissions x-goog-quota-user=projects/etracker-96a91
+[debug] [2024-03-07T20:36:06.515Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/etracker-96a91:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-03-07T20:36:08.137Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/etracker-96a91:testIamPermissions 200
+[debug] [2024-03-07T20:36:08.138Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/etracker-96a91:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-03-07T20:36:08.139Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/etracker-96a91 [none]
+[debug] [2024-03-07T20:36:09.582Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/etracker-96a91 200
+[debug] [2024-03-07T20:36:09.583Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/etracker-96a91 {"projectId":"etracker-96a91","projectNumber":"972239047465","displayName":"etracker","name":"projects/etracker-96a91","resources":{"hostingSite":"etracker-96a91"},"state":"ACTIVE","etag":"1_63f8c6fd-300d-4be2-bae2-865736965ebf"}
+[debug] [2024-03-07T20:36:20.971Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/sites/etracker-96a91/releases [none]
+[debug] [2024-03-07T20:36:20.972Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/sites/etracker-96a91/releases {"type":"SITE_DISABLE"}
+[debug] [2024-03-07T20:36:22.096Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/sites/etracker-96a91/releases 200
+[debug] [2024-03-07T20:36:22.096Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/sites/etracker-96a91/releases {"name":"sites/etracker-96a91/releases/1709843781449000","type":"SITE_DISABLE","releaseTime":"2024-03-07T20:36:21.449Z","releaseUser":{"email":"devinithin195@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocIhtEWwwI-gFDOB3WB7brkZhh3d7FDPOVzvDJo1-njNovM"}}
+[info] +  Hosting has been disabled for etracker-96a91. Deploy a new version to re-enable. 
+[debug] [2024-03-07T20:36:27.385Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\Nithin\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:258:49)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+[error] 
+[error] Error: An unexpected error has occurred.
